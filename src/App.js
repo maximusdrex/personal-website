@@ -5,12 +5,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Maxwell Schaefer
         </p>
         
       </header>
+      <div className="App-body">
+        <p>Hi</p>
+      </div>
     </div>
   );
 }
